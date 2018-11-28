@@ -1,4 +1,5 @@
 <?
+
 	include "resource/function/function.php";
 	$url = get_language("all");
 	include "$url";	
