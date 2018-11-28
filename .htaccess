@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^/ru/ ?lang=1 [NC,L]
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteRule ^(\w+)$ /content/$1.php [L,NC]

@@ -1,0 +1,19 @@
+.footer{
+	padding:40px 90px;
+	background-color: #141417;
+}
+.footer a{
+	color:  #999b9d;
+}
+.footer ul{
+	list-style-type:none;
+}
+.footer ul li{
+	color:#999b9d;
+}
+.footer .title{
+	color: white;
+}
+.footer hr{
+	border-bottom: 1px solid #f50;
+}
