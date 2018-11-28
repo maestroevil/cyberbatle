@@ -214,6 +214,33 @@
 			</div>
 		</div>
 	";
+	//Cooperation
+	$cooperation = "
+	  <div class='cooperation'>
+	  	<div class='container-fluid'>
+	  		<div class='row'>
+	  			<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+	  				<img class='gif-400' src='resource/img/cooperation2.png'>
+	  			</div>
+	  			<div class='col-xs-12 col-sm-12 col-md-6 col-lg-6'>
+	  				<h3 class='text-center'> Cooperation with educational establishment </h3>
+	  				<p>We provide our services to educational institutions that want to assemble their cybersport team and participate in tournaments. From our part we offer:
+	  				   </p>
+	  				   <ul>
+		  				   <li>Event organization</li>
+		  				   <li>Conducting an event</li>
+		  				   <li>Our tournament system</li>
+		  				   <li>Awards</li>
+		  				</ul>
+		  			<p> In turn each player of your team has to pay the tariff of our system. For more information  <a href='contacts.php'> contact us. </a> </p>
+	  				<h3 class='text-center'> PARTNERSHIP </h3>
+	  				<p> Do you want to help improving our project or YOU need help?  Contact us via e-mail or call with your business offer we will listen to you and take a general decision</p>
+	  				<h5 class='text-center'> WITH RESPECT FROM THE ADMINISTRATION OF THE PROJECT 'CYBERBATTLE' </h5>
+	  			</div>
+	  		</div>
+	  	</div>
+	  </div>
+	";
 	$contacts = "<p class='text-right'>
 		For any questions or suggestions to contact these contacts.<br><br>
 		Telephone for cooperation: +380506468467 <br>
