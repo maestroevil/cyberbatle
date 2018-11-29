@@ -55,13 +55,12 @@
                   <img src='resource/img/$url_icon.png'>
                 </a>";
             ?>
-            
       </div>
       </div>
       <?
         echo" 
-          <a class='button2'>$main_menu_reg</a>
-          <a class='button1'>$main_menu_enter</a>";
+          <a class='button2' href='user/index.php'>$main_menu_reg</a>
+          <a class='button1' href='user/index.php'>$main_menu_enter</a>";
       ?>
       
     </div>
