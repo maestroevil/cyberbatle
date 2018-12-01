@@ -24,13 +24,18 @@ body {
 	
 	background-color:#121212;
 	display:flex;
+	justify-content: space-between;
 	
 }
 .top-menu-left .icon-home{
 	width: 50px;
-	color: orange;
+	color: #f50;
 	padding: 15px 0px;
 	text-align: center;
+	font-size: 20px;
+}
+.top-menu-left .icon-home:hover{
+	cursor: pointer;
 }
 .button1{
 	background-color: var(--main-color2);
@@ -45,6 +50,11 @@ body {
 	height: 94%;
 	display: flex;
 	
+}
+.icon-left-menu{
+	color: white;
+	font-size: 25px;
+	margin: 8px;
 }
 .left .left-list {
 	width: 50px;

@@ -24,6 +24,12 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 			
 		</div>
 		<div class="top-menu-right">
+			<i class="fas fa-money-bill icon-left-menu"></i>
+			<a href="">
+				<img src="resource/img/avatar.jpg" width="40" height="40" alt="avatar" class="rounded-circle">
+			</a>
+			<i class="fas fa-arrow-down icon-left-menu"></i>
+
 			
 		</div>
 	</div>
@@ -32,7 +38,7 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 
 			<a><i class="fas fa-play icon"></i></a>
 			<a><i class="fas fa-user-friends icon"></i></a>
-			<a href=""><i class="fas fa-fist-raised icon"></i>	</a>
+			<a href=""><i class="fas fa-trophy icon"></i>	</a>
 			<a>
 				<i class="fas fa-users icon"></i>
 				<hr style="border:1px solid white;margin-top: 0px;">
