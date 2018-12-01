@@ -89,3 +89,17 @@ body {
 	color: white;
 	font-size: 18px;
 }
+
+.left-nav-menu__title{
+	width: 100%;
+	text-align: left;
+	padding:10px 15px;
+
+}
+.left-nav-menu__title hr{
+	border-color: white;
+}
+.left-nav-menu__title h6{
+	color: white;
+	font-weight: bold;
+}

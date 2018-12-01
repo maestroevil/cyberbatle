@@ -35,28 +35,33 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 	</div>
 	<div class="left"> 
 		<div class="left-list">
-
-			<a><i class="fas fa-play icon"></i></a>
-			<a><i class="fas fa-user-friends icon"></i></a>
-			<a href=""><i class="fas fa-trophy icon"></i>	</a>
+			<a><i class="fas fa-play icon" id='play'></i></a>
+			<a><i class="fas fa-user-friends icon" id='friends'></i></a>
+			<a href=""><i class="fas fa-trophy icon" id='trophy'></i>	</a>
 			<a>
-				<i class="fas fa-users icon"></i>
+				<i class="fas fa-users icon" id='team'></i>
 				<hr style="border:1px solid white;margin-top: 0px;">
 			</a>
-			<a href=""><i class="fas fa-briefcase icon"></i></a>
-			<a href=""><i class="fas fa-shopping-cart icon"></i></a>
-			<a href=""><i class="fas fa-star icon"></i></a>
-			<a href=""><i class="fas fa-question icon"></i></a>
-			<a href=""><i class="fas fa-headset icon"></i></a>
-			
+			<!-- <a href=""><i class="fas fa-briefcase icon" id=''></i></a> -->
+			<a href=""><i class="fas fa-shopping-cart icon" id='shop'></i></a>
+			<a href=""><i class="fas fa-star icon" id='subscription'></i></a>
+			<a href=""><i class="fas fa-question icon" id = 'question'></i></a>
+			<a href=""><i class="fas fa-headset icon" id='support'></i></a>
 		</div>
 		<div class="left-nav-menu" id='left-nav-menu'>
-			
+			<div class="left-nav-menu__title">
+				<h6>Играть</h6>
+				<hr>
+			</div>
+			<div id='left-nav-menu__content'>
+				
+			</div>
 		</div>
 		<div class="content"></div>
 	</div>
 			
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script type="text/javascript" src="resource/js/left-menu-nav.js"></script>
 </body>
 </html>
 <?
