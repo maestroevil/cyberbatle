@@ -19,7 +19,7 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 	<div class="top-menu">
 		<div class="top-menu-left">
 			<a class="home">
-				<i class="fas fa-home icon"></i>
+				<i class="fas fa-home icon-home"></i>
 			</a>
 			
 		</div>
@@ -30,20 +30,19 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 	<div class="left"> 
 		<div class="left-list">
 
-			<a>
-				<i class="fas fa-play icon"></i>
-			</a>
-			<a>
-				<i class="fas fa-user-friends icon"></i>
-			</a>
-			<a href="">
-				<i class="fas fa-fist-raised icon"></i>	
-			</a>
+			<a><i class="fas fa-play icon"></i></a>
+			<a><i class="fas fa-user-friends icon"></i></a>
+			<a href=""><i class="fas fa-fist-raised icon"></i>	</a>
 			<a>
 				<i class="fas fa-users icon"></i>
 				<hr style="border:1px solid white;margin-top: 0px;">
 			</a>
-			<hr> 
+			<a href=""><i class="fas fa-briefcase icon"></i></a>
+			<a href=""><i class="fas fa-shopping-cart icon"></i></a>
+			<a href=""><i class="fas fa-star icon"></i></a>
+			<a href=""><i class="fas fa-question icon"></i></a>
+			<a href=""><i class="fas fa-headset icon"></i></a>
+			
 		</div>
 		<div class="left-nav-menu">
 			

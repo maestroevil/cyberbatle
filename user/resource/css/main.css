@@ -26,6 +26,12 @@ body {
 	display:flex;
 	
 }
+.top-menu-left .icon-home{
+	width: 50px;
+	color: orange;
+	padding: 15px 0px;
+	text-align: center;
+}
 .button1{
 	background-color: var(--main-color2);
 	border-radius: 3px;
