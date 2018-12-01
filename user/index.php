@@ -50,13 +50,13 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 			<a href=""><i class="fas fa-headset icon"></i></a>
 			
 		</div>
-		<div class="left-nav-menu">
+		<div class="left-nav-menu" id='left-nav-menu'>
 			
 		</div>
 		<div class="content"></div>
 	</div>
 			
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </body>
 </html>
 <?
