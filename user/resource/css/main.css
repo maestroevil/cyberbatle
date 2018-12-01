@@ -103,3 +103,15 @@ body {
 	color: white;
 	font-weight: bold;
 }
+.button2,.play__list-tour{
+	padding: 5px;
+	border-radius: 2px;
+	margin-top: 10px;
+	width: 100%;
+	background-color: #404040;
+	color: white;
+	font-size: 10px;
+	font-color:white;
+	
+
+}

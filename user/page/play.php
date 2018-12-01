@@ -1,2 +1,4 @@
-<p>qwer </p>
-<a id='click'>qwertdsgfdsgdfsgdfgdfgdfg </a>
+<div width='100%'>
+	<button class="button2"></button>	
+</div>
+
