@@ -8,7 +8,7 @@ body,html{
 	width: 100%;
 	height: 100%;
 }
-h1,h2,h3,h4,h5,h6,a{
+h1,h2,h3,h4,h5,h6,a,button{
 	color: white;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -91,27 +91,125 @@ body {
 }
 
 .left-nav-menu__title{
+	padding-top: 10px;
 	width: 100%;
 	text-align: left;
-	padding:10px 15px;
 
 }
 .left-nav-menu__title hr{
 	border-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .left-nav-menu__title h6{
 	color: white;
 	font-weight: bold;
 }
-.button2,.play__list-tour{
+.but2,.play__list-tour{
 	padding: 5px;
 	border-radius: 2px;
 	margin-top: 10px;
 	width: 100%;
 	background-color: #404040;
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
 	font-color:white;
-	
+	border: 0px solid white;
+	text-transform: uppercase;
+}
+.but2:hover{
+	cursor: pointer;
+}
+.play-block{
+	width: 100%;
+	padding: 10px;
+	padding-top: 0px;
+	height: 100%;
+	overflow-y: scroll;
+}
+.title-panel {
+	color: white;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.title-panel hr{
+	border-color: white;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.block-panel{
+	width: 100%;
+}
+.block-panel p{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+}
+.game-item,.friends-item{
+	padding: 5px;
+	border-radius: 10px;
+}
+.game-item img{
+	width: 25px;
+	margin-right: 5px;
+}
+.game-item span{
+	color: #999b9d;
+	font-weight: 500;
 
 }
+.friends-item:hover,.game-item:hover{
+	background-color:  #404040;
+	cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: gray;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.input1{
+	width: 100%;
+	background-color: #1f1f1f;
+	border:1px solid gray;
+	margin:10px 0px;
+	color: white;
+	padding: 5px 10px;
+	height: 30px;
+	font-size: 13px;
+}
+
+.friends-item img{
+	width: 25px;
+	margin-right: 5px;	
+}
+.friends-item span{
+	color: #999b9d;
+	font-weight: 400;	
+	font-size: 13px;
+}
+.friends-item {
+	width: 100%;
+
+}
+.friends-item .icon{
+	font-size: 15px;
+	color: white;
+	float: right;
+	margin-top: 7px;
+}
+.friends-item .icon:hover{
+	background-color: unset;
+}
+
+

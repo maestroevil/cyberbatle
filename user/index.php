@@ -48,13 +48,34 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 			<a><i class="fas fa-question icon left-panel-button" id = 'question'></i></a>
 			<a><i class="fas fa-headset icon left-panel-button" id='support'></i></a>
 		</div>
-		<div class="left-nav-menu" id='left-nav-menu'>
-			<div class="left-nav-menu__title">
-				<h6>Играть</h6>
-				<hr>
-			</div>
-			<div id='left-nav-menu__content'>
-				
+		<div class="left-nav-menu" id='left-nav-menu__content'>
+			<div class="play-block">
+				<div class="left-nav-menu__title">
+					<h6>Играть</h6>
+					<hr>
+				</div>
+				<button class="but2">Пользовательские игры</button>	
+				<button class="but2">Создать комнату</button>	
+				<button class="but2">Создать турнир</button>	
+				<div class="block-panel">
+					<h6 class="title-panel">Комнаты <hr></h6>	
+					<div class="game-item">
+						<img src="resource/img/clashroyale.png">
+						<span class="game-title">ClashRoyale 5000$</span>	
+					</div>
+					<div class="game-item">
+						<img src="resource/img/pubgmobile.jpg">
+						<span class="game-title">PubgMobile Zone</span>	
+					</div>
+					<div class="game-item">
+						<img src="resource/img/hs.png">
+						<span class="game-title">Hearstone Zone</span>	
+					</div>
+				</div>
+				<div class="block-panel">
+					<h6 class="title-panel">Турниры<hr></h6>	
+					<p class="text-center" >Список пуст </p>
+				</div>
 			</div>
 		</div>
 		<div class="content"></div>
