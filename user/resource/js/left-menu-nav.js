@@ -7,7 +7,8 @@ $(document).ready(function() {
 
 	function getXHR(url,url_script) {
 	    var req = new XMLHttpRequest();
-	    req.open('GET', url, true);
+	    req.open('POST', url, true);
+	    req.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
 	    req.onreadystatechange = function () {
 	        if (this.readyState == 4) {
 	            if (this.status == 200 || this.status == 0) {
