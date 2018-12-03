@@ -145,7 +145,7 @@ body {
 	color: white;
 	font-weight: bold;
 }
-.game-item,.friends-item{
+.game-item,.friends-item,.team-item{
 	padding: 5px;
 	border-radius: 10px;
 }
@@ -158,7 +158,7 @@ body {
 	font-weight: 500;
 
 }
-.friends-item:hover,.game-item:hover{
+.friends-item:hover,.game-item:hover,.team-item:hover{
 	background-color:  #404040;
 	cursor: pointer;
 }
@@ -189,26 +189,26 @@ body {
 	font-size: 13px;
 }
 
-.friends-item img{
+.friends-item img,.team-item img{
 	width: 25px;
 	margin-right: 5px;	
 }
-.friends-item span{
+.friends-item span,.team-item span{
 	color: #999b9d;
 	font-weight: 400;	
 	font-size: 13px;
 }
-.friends-item {
+.friends-item,.team-item {
 	width: 100%;
 
 }
-.friends-item .icon{
+.friends-item .icon , .team-item .icon{
 	font-size: 15px;
 	color: white;
 	float: right;
 	margin-top: 7px;
 }
-.friends-item .icon:hover{
+.friends-item .icon:hover ,.team-item .icon:hover{
 	background-color: unset;
 }
 
