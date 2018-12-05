@@ -2,8 +2,8 @@
 	<div class="left-nav-menu__title">
 		<h6>Играть</h6>
 		<hr>
-	</div>
-	<button class="but2">Пользовательские игры</button>	
+	</div> 
+	<button class="but2 left-panel-active-button" id='user-game'>Пользовательские игры</button>	
 	<button class="but2">Создать комнату</button>	
 	<button class="but2">Создать турнир</button>	
 	<div class="block-panel">

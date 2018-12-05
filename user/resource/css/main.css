@@ -66,12 +66,12 @@ body {
 	background-color:#181818;
 	height: 100%;
 }
-.left .content{
+.left .content{	
 	background-color: #1f1f1f;
 	width: 500px;
 	height: 100%;
 	flex: 1;
-
+	overflow-y: scroll;
 }
 .left-list a {
 	padding: 10px 0px;
@@ -200,7 +200,6 @@ body {
 }
 .friends-item,.team-item {
 	width: 100%;
-
 }
 .friends-item .icon , .team-item .icon{
 	font-size: 15px;
@@ -211,5 +210,37 @@ body {
 .friends-item .icon:hover ,.team-item .icon:hover{
 	background-color: unset;
 }
-
-
+.list-news hr{
+	border-color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+	
+.list-news{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+.list-news .block-news {
+	width: 23%;	
+	background-color: #121212;
+}
+.list-news .block-news .cont { 	
+	padding: 10px;
+}
+.list-news .block-news img {
+	width: 100%;
+}
+.list-news .block-news .cont  p {
+	color: #999b9d;
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	
+}
+.news{
+	width: 100%;
+}
+td .but2{
+	margin-top: 0px;
+}

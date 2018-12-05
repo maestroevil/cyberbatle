@@ -19,9 +19,8 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 	<div class="top-menu">
 		<div class="top-menu-left">
 			<a class="home">
-				<i class="fas fa-home icon-home"></i>
-			</a>
-			
+				<i class="fas fa-home icon-home left-panel-active-button" id='home'></i>
+			</a>			
 		</div>
 		<div class="top-menu-right">
 			<i class="fas fa-money-bill icon-left-menu"></i>
@@ -29,8 +28,6 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 				<img src="resource/img/avatar.jpg" width="40" height="40" alt="avatar" class="rounded-circle">
 			</a>
 			<i class="fas fa-arrow-down icon-left-menu"></i>
-
-			
 		</div>
 	</div>
 	<div class="left"> 
@@ -54,7 +51,8 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 					<h6>Играть</h6>
 					<hr>
 				</div>
-				<button class="but2">Пользовательские игры</button>	
+				<button class="but2 left-panel-active-button" id='user-game'>Пользовательские игры</button>	
+				<button class="but2 left-panel-active-button" id='user-tour'>Пользовательские турниры</button>	
 				<button class="but2">Создать комнату</button>	
 				<button class="but2">Создать турнир</button>	
 				<div class="block-panel">
@@ -78,12 +76,37 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 				</div>
 			</div>
 		</div>
-		<div class="content"></div>
+		<div class="content" id='right-panel__content'>
+			<div class="news">
+				<div class="list-news">
+					<div class="block-news">
+						<img src="resource/img/avatar.jpg">
+						<div class="cont">
+							<p>26.11.2018 Новокаховский Политехнический Колледж от лица Виткова Виталия Владимировича директора данного учреждения, дал согласия на проведения турниров на територии колледжа. </p>
+						</div>
+					</div>
+					<div class="block-news">
+						<img src="resource/img/avatar.jpg">
+						<div class="cont">
+							<p>--.--.2019 Одесский Политехнический Университет от лица Вычужанина Владимира Викторовича зав. кафедры  126 специализации, дал согласия на проведения турниров на територии корпуса X. </p>
+						</div>
+					</div>
+					<div class="block-news">
+						<img src="resource/img/tour.jpg">
+						<div class="cont">
+							<p>Организация первого тунира не територии НКПК. Результаты и медим можно просмотреть подробней в соц сетях. 
+								<a href="ingfs">подробнее </a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-			
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="resource/js/left-menu-nav.js"></script>
 	<script id='nav-menu-left__script' type="text/javascript" src="resource/js/play.js"></script>
+	<script id='nav-menu-left__script-content' type="text/javascript" src="resource/js/content/home.js"></script>
 </body>
 </html>
 <?
