@@ -2,12 +2,14 @@ $(document).ready(function() {
 	$(".left-panel-button").click(function(){
 		var id = $(this).attr("id"); 
 	  	getXHR("page/"+id+".php","resource/js/"+id+".js");
+	  	setLocation('book/' + id);
 	});
 
-	$(".left-panel-active-button").click(function(){
-		var id = $(this).attr("id"); 
-	  	getXHRRight("page/content/"+id+".php","resource/js/content/"+id+".js");
-	});
+	function setLocation(curLoc){
+	  location.href = curLoc;
+	  location.hash = curLoc;
+	}
+	
 	function getXHR(url,url_script) {
 	    var req = new XMLHttpRequest();
 	    req.open('POST', url, true);
@@ -25,6 +27,10 @@ $(document).ready(function() {
 	        }
 	    req.send();
 	};
+	$(".left-panel-active-button").click(function(){
+		var id = $(this).attr("id"); 
+	  	getXHRRight("page/content/"+id+".php","resource/js/content/"+id+".js");
+	});
 	function getXHRRight(url,url_script) {
 	    var req = new XMLHttpRequest();
 	    req.open('POST', url, true);

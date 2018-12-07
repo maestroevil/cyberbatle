@@ -23,7 +23,7 @@
       <td>Ямакаси</td>
       <td>08.02.2019</td>
       <td>19:00</td>
-      <td><button class="but2" >Подробнее</button></td>
+      <td><button class="but2 left-panel-active-button"  user-game-id='1'>Подробнее</button></td>
     </tr>
     <tr>
       <th scope="row"><img width="30px" src="resource/img/hs.png"></th>

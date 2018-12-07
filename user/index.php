@@ -22,12 +22,15 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 				<i class="fas fa-home icon-home left-panel-active-button" id='home'></i>
 			</a>			
 		</div>
-		<div class="top-menu-right">
-			<i class="fas fa-money-bill icon-left-menu"></i>
+		<div class="top-menu-right">			
+			<i class="fab fa-cuttlefish icon" ></i>
+			<span>50</span>
+			<i class="fas fa-crown icon"></i>
+			<span>50</span>
+			
 			<a href="">
-				<img src="resource/img/avatar.jpg" width="40" height="40" alt="avatar" class="rounded-circle">
+				<img src="resource/img/avatar.jpg" alt="avatar" class="">
 			</a>
-			<i class="fas fa-arrow-down icon-left-menu"></i>
 		</div>
 	</div>
 	<div class="left"> 
