@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$(".left-panel-button").click(function(){
 		var id = $(this).attr("id"); 
 	  	getXHR("page/"+id+".php","resource/js/"+id+".js");
-	  	setLocation('book/' + id);
+	  	setLocation('#book/' + id);
 	});
 
 	function setLocation(curLoc){
@@ -19,7 +19,11 @@ $(document).ready(function() {
 	            if (this.status == 200 || this.status == 0) {
 	               		$("#left-nav-menu__content").html(this.responseText);
 	               		$("#nav-menu-left__script").remove();
+	               		$("#sall-scripts-content").html("resource/js/content/home.js");
+
 	               		setScript(url_script,"nav-menu-left__script");
+						setScript("resource/js/content/content.js","all-scripts-content");
+	               		$("#all-scripts-content").remove();
 	                } else {
 	                	alert("Eror:404");
 	                };

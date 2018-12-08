@@ -107,9 +107,15 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 		</div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Left-menu -->
 	<script type="text/javascript" src="resource/js/left-menu-nav.js"></script>
 	<script id='nav-menu-left__script' type="text/javascript" src="resource/js/play.js"></script>
+	<!--Content  -->
 	<script id='nav-menu-left__script-content' type="text/javascript" src="resource/js/content/home.js"></script>
+	<script id='all-scripts-content' type="text/javascript" src=""></script>
+	<!-- Block -->
+	<script id='nav-menu-left__script-block' type="text/javascript" ></script>
+	<script id='all-scripts-block' type="text/javascript" src=""></script>
 </body>
 </html>
 <?
