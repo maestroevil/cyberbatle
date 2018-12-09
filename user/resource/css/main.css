@@ -294,11 +294,31 @@ td .but2{
  }
  .view-user-game .info span{
  	margin-right: 10px;
+
  }
  .view-user-game .info .but2{
  	background-color: #f50;
  	width: 200px;
+ 	margin-bottom: 10px;
  }
  .money{
  	color: #f50;
  }
+ .money:hover{
+ 	background-color: unset;
+ }
+ .view-user-game .info .content{
+ 	width: 100%;
+}
+.view-user-game .table{
+	margin-top: 15px;
+}
+.bl{
+	margin-top: 10px;
+}
+.bl span{
+	color: #f50;
+}
+.bl span:hover{
+	cursor: pointer;
+}
