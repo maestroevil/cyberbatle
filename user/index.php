@@ -2,7 +2,8 @@
 <html>
 <head>
 	<title>CyberBattle</title>
-	<link rel="stylesheet" type="text/css" href="resource/css/main.css">
+   <link rel="stylesheet" type="text/css" href="resource/css/main.css">
+   <link rel="stylesheet" type="text/css" href="resource/css/tourgrid.css">
 	<!-- Meta -->
   <meta charset="utf-8">
   <!-- Bootsrap -->
@@ -22,7 +23,9 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 				<i class="fas fa-home icon-home left-panel-active-button" id='home'></i>
 			</a>			
 		</div>
-		<div class="top-menu-right">			
+		<div class="top-menu-right">
+			<button class="but2">Пополнить</button>
+			<button class="but2">Вывести</button>						
 			<i class="fab fa-cuttlefish icon" ></i>
 			<span>50</span>
 			<i class="fas fa-crown icon"></i>
@@ -56,7 +59,7 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
 				</div>
 				<button class="but2 left-panel-active-button" id='user-game'>Пользовательские игры</button>	
 				<button class="but2 left-panel-active-button" id='user-tour'>Пользовательские турниры</button>	
-				<button class="but2">Создать комнату</button>	
+				<button class="but2 left-panel-active-button" >Создать комнату</button>	
 				<button class="but2">Создать турнир</button>	
 				<div class="block-panel">
 					<h6 class="title-panel">Комнаты <hr></h6>	

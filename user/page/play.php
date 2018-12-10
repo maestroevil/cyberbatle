@@ -4,8 +4,10 @@
 		<hr>
 	</div> 
 	<button class="but2 left-panel-active-button" id='user-game'>Пользовательские игры</button>	
-	<button class="but2">Создать комнату</button>	
-	<button class="but2">Создать турнир</button>	
+	<button class="but2 left-panel-active-button" id='user-tour'>Пользовательские турниры</button>	
+	<button class="but2 left-panel-active-button" id='user-create-room'>Создать комнату</button>	
+	<button class="but2 left-panel-active-button" id='user-create-tour'>Создать турнир</button>	
+
 	<div class="block-panel">
 		<h6 class="title-panel">Комнаты <hr></h6>	
 		<div class="game-item">

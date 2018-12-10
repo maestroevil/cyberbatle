@@ -271,6 +271,7 @@ td .but2{
 	float: left;
 	margin-top: 0px;
 	text-decoration: none;
+	margin-right: 15px;
 }
 .view-user-game{
 	width: 100%;
@@ -321,4 +322,36 @@ td .but2{
 }
 .bl span:hover{
 	cursor: pointer;
+}
+.user-create-room{
+	width: 100%;
+	height: 100%;
+	color: white;
+	font-weight: bold;
+	padding: 50px 50px;
+}
+.user-create-room .line-block{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 25px;
+
+}
+.user-create-room .but2{
+	background-color: #f50;
+	width: 300px;
+	text-align: center;
+}
+input,select{
+	color: white;
+	background-color: black;
+	width: 300px;
+	padding: 5px;
+	border:2px solid #f50;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
 }
