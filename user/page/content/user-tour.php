@@ -5,7 +5,7 @@
       <th scope="col">Игра</th>
       <th scope="col">Название комнаты</th>
       <th scope="col">Тип игры</th>
-      <th scope="col">Ставка</th>
+      <th scope="col">Призовые</th>
       <th scope="col">Участники</th>
       <th scope="col">Создатель</th>
       <th scope="col">Дата</th>
