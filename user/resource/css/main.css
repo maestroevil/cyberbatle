@@ -237,16 +237,21 @@ body {
 }
 	
 .list-news{
+	padding-top:10px;
 	display: flex;
 	justify-content: space-around;
 	align-items: stretch;
 }
 .list-news .block-news {
+
 	width: 23%;	
 	background-color: #121212;
 }
 .list-news .block-news .cont { 	
 	padding: 10px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
 }
 .list-news .block-news img {
 	width: 100%;

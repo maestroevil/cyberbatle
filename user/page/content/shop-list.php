@@ -1,31 +1,31 @@
 <div class="news">
 	<div class="list-news">
 		<div class="block-news">
-			<img src="resource/img/shop1.jpg">
+			<img src="resource/img/shop1.png">
 			<div class="cont">
-				<p>26.11.2018 Новокаховский Политехнический Колледж от лица Виткова Виталия Владимировича директора данного учреждения, дал согласия на проведения турниров на територии колледжа. </p>
+				<h5><i  class="fab fa-cuttlefish icon money"></i>10 000</h5>
+				<button class="but2">Купить</button>
 			</div>
 		</div>
 		<div class="block-news">
 			<img src="resource/img/shop2.png">
 			<div class="cont">
-				<p>--.--.2019 Одесский Политехнический Университет от лица Вычужанина Владимира Викторовича зав. кафедры  126 специализации, дал согласия на проведения турниров на територии корпуса X. </p>
+				<h5><i  class="fab fa-cuttlefish icon money"></i>10 000</h5>
+				<button class="but2">Купить</button>
 			</div>
 		</div>
 		<div class="block-news">
-			<img src="resource/img/shop3.jpg">
+			<img src="resource/img/shop3.png">
 			<div class="cont">
-				<p>Организация первого тунира не територии НКПК. Результаты и медим можно просмотреть подробней в соц сетях. 
-					<a href="ingfs">подробнее </a>
-				</p>
+				<h5><i  class="fab fa-cuttlefish icon money"></i>7500</h5>
+				<button class="but2">Купить</button>
 			</div>
 		</div>
 		<div class="block-news">
-			<img src="resource/img/tour.jpg">
+			<img src="resource/img/shop4.png">
 			<div class="cont">
-				<p>Организация первого тунира не територии НКПК. Результаты и медим можно просмотреть подробней в соц сетях. 
-					<a href="ingfs">подробнее </a>
-				</p>
+				<h5><i  class="fab fa-cuttlefish icon money"></i>7500</h5>
+				<button class="but2">Купить</button>
 			</div>
 		</div>
 	</div>
