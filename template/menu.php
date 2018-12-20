@@ -3,6 +3,23 @@
   $url = get_language("all");
   include "$url"; 
 ?>
+<div class="modale-background" data='modale1'></div>
+
+<div class="modale">
+  <i class="fas fa-times modale-button-close"></i> 
+  <div class="content">
+    
+    <div class="form">
+      <p> На данный момент регистрация является закрытой. </p>
+      <input type="text" class="input1" name="" placeholder="Login">
+      <br>
+      <input type="password" class="input1" name="" placeholder="password">
+      <br><br>
+      <a href='vk.com' class="button2" style="background-color: #f50;">Войти</a>
+    </div>   
+  </div>
+</div>
+
 <nav class="navbar navbar-expand-lg navbar-dark ">
     <a class="navbar-brand" href="#">cyberbattle</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,9 +75,9 @@
       </div>
       </div>
       <?
+      // <a class='button2' href='user/index.php'>$main_menu_reg</a>
         echo" 
-          <a class='button2' href='user/index.php'>$main_menu_reg</a>
-          <a class='button1' href='user/index.php'>$main_menu_enter</a>";
+          <a class='button1 but-open-modale' id='modale1'>$main_menu_enter</a>";
       ?>
       
     </div>

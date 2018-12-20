@@ -21,9 +21,16 @@ $(document).ready(function() {
 	               		$("#nav-menu-left__script").remove();
 	               		$("#sall-scripts-content").html("resource/js/content/home.js");
 
-	               		setScript(url_script,"nav-menu-left__script");
-						setScript("resource/js/content/content.js","all-scripts-content");
-	               		$("#all-scripts-content").remove();
+	               		
+						try{
+							setScript("resource/js/content/content.js","all-scripts-content");
+	               			$("#all-scripts-content").remove();
+	               			setScript(url_script,"nav-menu-left__script");	
+						}
+						catch(e){
+							
+						}
+						
 	                } else {
 	                	alert("Eror:404");
 	                };

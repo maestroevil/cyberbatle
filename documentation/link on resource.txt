@@ -10,3 +10,6 @@ https://www.w3schools.com/howto/howto_google_translate.asp - отличный ресурс с р
 
 //Code
 https://learn.javascript.ru/ajax-xmlhttprequest // ajax+-
+
+//Modale Window
+http://nisnom.com/modalnye-okna/
