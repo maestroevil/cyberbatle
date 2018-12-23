@@ -95,26 +95,26 @@
 			</div>
 		</section>
 	";
+	// $content .="
+	// 	<section class='section-6'>
+	// 		<div class='container-fluid'>
+	// 			<h3 class='text-center'> $index_price</h3>
+	// 			<div class='row'>
+	// 				<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4  block-price text-center'>
+	// 					$index_price_1
+	// 				</div>
+	// 				<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4 text-center block-price'>
+	// 					$index_price_2
+	// 				</div>
+	// 				<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4 text-center block-price' >
+	// 					$index_price_3
+	// 				</div>
+	// 			</div>
+	// 		</div>
+	// 	</section>
+	// ";
 	$content .="
-		<section class='section-6'>
-			<div class='container-fluid'>
-				<h3 class='text-center'> $index_price</h3>
-				<div class='row'>
-					<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4  block-price text-center'>
-						$index_price_1
-					</div>
-					<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4 text-center block-price'>
-						$index_price_2
-					</div>
-					<div class='col-sm-12 col-xs-12 col-md-4 col-lg-4 text-center block-price' >
-						$index_price_3
-					</div>
-				</div>
-			</div>
-		</section>
-	";
-	$content .="
-		<section class='section-7 text-center'>
+		<section class='section-6 text-center'>
 			<h3>$index_content_6</h3>
 			<p> </p>
 

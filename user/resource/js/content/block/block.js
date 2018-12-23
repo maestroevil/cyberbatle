@@ -4,9 +4,14 @@ $(document).ready(function() {
 	  location.hash = curLoc;
 	}
 	
-	$(".left-panel-active-button").click(function(){
+	$(".block-active-button").click(function(){
 		var id = $(this).attr("page"); 
 	  	getXHRRight("page/content/block/"+id+".php","resource/js/content/block/"+id+".js");
+	});
+	$(".tour-button").click(function(){
+		var id = $(this).attr("data"); 
+	  	getXHRRight("page/content/block/"+id+".php","resource/js/content/block/view-user-game.js");
+
 	});
 	function getXHRRight(url,url_script) {
 	    var req = new XMLHttpRequest();

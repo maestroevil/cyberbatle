@@ -11,11 +11,11 @@
     
     <div class="form">
       <p> На данный момент регистрация является закрытой. </p>
-      <input type="text" class="input1" name="" placeholder="Login">
+      <input type="text" class="input1" name="" placeholder="Никнейм">
       <br>
-      <input type="password" class="input1" name="" placeholder="password">
+      <input type="password" class="input1" name="" placeholder="Пароль">
       <br><br>
-      <a href='vk.com' class="button2" style="background-color: #f50;">Войти</a>
+      <a href='user' class="button2" style="background-color: #f50;">Войти</a>
     </div>   
   </div>
 </div>

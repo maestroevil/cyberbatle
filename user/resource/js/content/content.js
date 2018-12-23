@@ -4,10 +4,11 @@ $(document).ready(function() {
 	  location.hash = curLoc;
 	}
 	
-	$(".left-panel-active-button").click(function(){
+	$(".content-active-button").click(function(){
 		var id = $(this).attr("id"); 
 	  	getXHRRight("page/content/"+id+".php","resource/js/content/block/"+id+".js");
 	});
+
 	function getXHRRight(url,url_script) {
 	    var req = new XMLHttpRequest();
 	    req.open('POST', url, true);
@@ -16,13 +17,13 @@ $(document).ready(function() {
 	        if (this.readyState == 4) {
 	            if (this.status == 200 || this.status == 0) {
 	               		$("#right-panel__content").html(this.responseText);
-	               		$("#nav-menu-left__script-content").remove();
-	               		setScript(url_script,"nav-menu-left__script-block");
+	               		//$("#nav-menu-left__script-content").remove();
+	               		//setScript(url_script,"nav-menu-left__script-block");
 
-	               		$("#nav-menu-left__script-content").remove();
+	               		//$("#nav-menu-left__script-block").remove();
 	               		setScript("resource/js/content/block/block.js","all-scripts-block");
 	                } else {
-	                	alert("Eror:404");
+	                	alert("Error:404");
 	                };
 	        	};           
 	        }

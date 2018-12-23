@@ -3,6 +3,9 @@
   --main-color2: #404040;
   --size-block:75px;
 }
+#bracket{
+	display:none;
+}
 body,html{
 	font-family: 'Play', sans-serif;
 	width: 100%;
@@ -360,4 +363,11 @@ input,select{
 :active, :hover, :focus {
     outline: 0;
     outline-offset: 0;
+}
+.battle-rules{
+	padding: 15px;
+	color: white;
+}
+.battle-rules {
+	font-weight:300;
 }
