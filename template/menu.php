@@ -2,20 +2,32 @@
   // include "resource/function/function.php";
   $url = get_language("all");
   include "$url"; 
+  if($_POST['autorization-user']){
+    $db = mysql_connect("localhost","root","");
+    mysql_select_db("cyberbattle" ,$db);
+    $sql = mysql_query("SELECT * FROM cyberbattle_user WHERE `id`='1'" ,$db);
+    $login  = $_POST['login'];
+    $password = $_POST['password'];
+    $user = mysql_fetch_row($sql);
+    mysql_close($db);
+    if($user[2] == $login )
+      header('Location: http://www.example.com/');
+  }
 ?>
 <div class="modale-background" data='modale1'></div>
 
 <div class="modale">
   <i class="fas fa-times modale-button-close"></i> 
   <div class="content">
-    
     <div class="form">
-      <p> На данный момент регистрация является закрытой. </p>
-      <input type="text" class="input1" name="" placeholder="Никнейм">
-      <br>
-      <input type="password" class="input1" name="" placeholder="Пароль">
-      <br><br>
-      <a href='user' class="button2" style="background-color: #f50;">Войти</a>
+      <form action="/" method="POST">
+        <p> На данный момент регистрация является закрытой. </p>
+        <input type="text" class="input1" name="login" placeholder="Никнейм">
+        <br>
+        <input type="password" class="input1" name="password" placeholder="Пароль">
+        <br><br>
+        <input class="button2" type='submit' name="autorization-user" style="background-color: #f50;">
+      </form>
     </div>   
   </div>
 </div>
