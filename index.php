@@ -3,7 +3,6 @@
 	include "resource/function/function.php";
 	$url = get_language("all");
 	include "$url";	
-
 	$slider_main["slide1"]["content"] = 
 	"
 		<div class='slider-main'>

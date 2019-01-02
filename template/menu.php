@@ -2,19 +2,8 @@
   // include "resource/function/function.php";
   $url = get_language("all");
   include "$url"; 
-  if($_POST['autorization-user']){
-    $db = mysql_connect("localhost","root","");
-    mysql_select_db("cyberbattle" ,$db);
-    $sql = mysql_query("SELECT * FROM cyberbattle_user WHERE `id`='1'" ,$db);
-    $login  = $_POST['login'];
-    $password = $_POST['password'];
-    $user = mysql_fetch_row($sql);
-    mysql_close($db);
-    if($user[2] == $login )
-      header('Location: http://www.example.com/');
-  }
 ?>
-<div class="modale-background" data='modale1'></div>
+<!-- <div class="modale-background" data='modale1'></div>
 
 <div class="modale">
   <i class="fas fa-times modale-button-close"></i> 
@@ -31,7 +20,7 @@
     </div>   
   </div>
 </div>
-
+ -->
 <nav class="navbar navbar-expand-lg navbar-dark ">
     <a class="navbar-brand" href="#">cyberbattle</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +78,7 @@
       <?
       // <a class='button2' href='user/index.php'>$main_menu_reg</a>
         echo" 
-          <a class='button1 but-open-modale' id='modale1'>$main_menu_enter</a>";
+          <a class='button1' href='/user/index.php'>$main_menu_enter</a>";
       ?>
       
     </div>
