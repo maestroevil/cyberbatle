@@ -12,6 +12,7 @@
 		9 => "patronymic",
 		10 => "img",
 		11 => "telephone",
+		12 => "city",
 	);
 
 

@@ -41,6 +41,7 @@ integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhk
   			$_SESSION['patronymic_user'] = $user_array['patronymic'];
   			$_SESSION['img_user'] = $user_array['img'];
   			$_SESSION['telephone_user'] = $user_array['telephone'];
+  			$_SESSION['city_user'] = $user_array['city'];
   		}
   		mysql_close($db);
 	}

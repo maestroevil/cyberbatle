@@ -382,3 +382,13 @@ input,select{
 	left: 50%;
 	   transform: translate(-50%, -50%) 
 }
+.user-info{
+	margin-top: 15px;
+	
+}
+.user-info .right-panel,.user-info .left-panel{{
+	float: left;
+}
+.user-info h6{
+	margin-bottom: 15px;
+}
