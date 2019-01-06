@@ -392,3 +392,7 @@ input,select{
 .user-info h6{
 	margin-bottom: 15px;
 }
+textarea{
+	margin-top: 5%;
+	width: 800px;
+}

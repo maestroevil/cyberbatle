@@ -3,7 +3,5 @@
 		<h6>Поддержка</h6>
 		<hr>
 	</div>
-	<button class="but2">Связаться с тех. поддержкой</button>
-	<button class="but2">Сообщить про нарушение</button>
-	<button class="but2">Сообщить про баг</button>
+	<button class="but2 content-active-button" id="tehnical-sup">Связаться с тех. поддержкой</button>
 </div>
